@@ -1,0 +1,22 @@
+
+/* https://github.com/kubowania/whac-a-mole */
+
+.grid {
+    width: 625px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.square {
+    height: 200px;
+    width: 200px;
+    border: black 3px solid;
+}
+
+.mole {
+    /* background-color: brown; */
+    background-image: url('pink-mole.png');
+    background-size: cover;
+}
