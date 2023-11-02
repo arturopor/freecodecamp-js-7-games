@@ -6,6 +6,7 @@
     width: 560px;
     height: 300px;
     border: solid black 1px;
+    margin-top: 20px;
 }
 
 .block {
@@ -22,3 +23,10 @@
     background-color: purple;
 }
 
+.ball {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: red;
+}
